@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "678113383653",
+    "project_id": "firebasics-3c195",
+    "storage_bucket": "firebasics-3c195.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678113383653:android:1ef5e655d1a9074b29f00c",
+        "android_client_info": {
+          "package_name": "com.fake.calculator"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTlZCn6mTqUWV-sh2vCeIbGQEsTjsybSM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

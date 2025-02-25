@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <EditText
+        android:id="@+id/etValOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter value 1" />
+
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/buttonMinus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/buttonMulti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="X" />
+
+    <Button
+        android:id="@+id/buttonDiv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="%" />
+
+    <EditText
+        android:id="@+id/etValTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Value 2" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/tvRes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" " />
+
+</LinearLayout>
